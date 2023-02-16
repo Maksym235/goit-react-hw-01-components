@@ -1,0 +1,24 @@
+.avatar {
+  border: 1px solid black;
+  border-radius: 50px;
+  background-color: cadetblue;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.statusOnline {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: greenyellow;
+}
+
+.statusOfline {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}

@@ -1,0 +1,9 @@
+.transactionHistory {
+  width: 600px;
+  margin: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.trnHead {
+  background-color: violet;
+}

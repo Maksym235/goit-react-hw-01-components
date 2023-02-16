@@ -1,0 +1,39 @@
+.statistics {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  outline: 1px solid black;
+}
+
+.title {
+  color: gray;
+}
+
+.statList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 500;
+}
