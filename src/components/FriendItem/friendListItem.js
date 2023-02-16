@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from './css/friedItem.module.css';
+import css from './friedItem.module.css';
 
 export default function FriendItem({ item: { avatar, name, isOnline } }) {
   return (
