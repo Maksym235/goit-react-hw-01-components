@@ -6,14 +6,3 @@
   list-style: none;
   gap: 10px;
 }
-
-.friendListItem {
-  width: 200px;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  background-color: rgb(171, 170, 170);
-  box-shadow: 7px 10px 18px -8px rgba(148, 140, 148, 1);
-  border-radius: 5px;
-}

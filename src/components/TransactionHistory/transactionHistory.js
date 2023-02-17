@@ -15,11 +15,7 @@ export default function TransactionHistory({ items }) {
 
       <tbody>
         {items.map(item => {
-          return (
-            <tr key={item.id}>
-              <Transation item={item} />
-            </tr>
-          );
+          return <Transation item={item} />;
         })}
       </tbody>
     </table>
@@ -27,9 +23,5 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.propTypes = {
-  items: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-    })
-  ).isRequired,
+  items: PropTypes.arrayOf(PropTypes.shape()).isRequired,
 };
